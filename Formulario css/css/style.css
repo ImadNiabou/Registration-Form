@@ -1,0 +1,157 @@
+body{
+	font-family: verdana,Sans-serif;
+    background-color: #F5FAF9;
+}
+
+h1{
+    font-size: 24px;
+    padding: 10px;
+    width: 500px;
+    color: #55917A;
+}
+
+#main > p{
+	width: 613px;
+    border: 2px dotted #55917A;
+    background-color:  #E0F0E8;
+    padding: 6px;
+    margin: 10px;
+}
+
+form{
+	padding: 18px;
+}
+
+#wrapper{
+	border: 3px solid  #E0F0E8;
+	width: 650px;
+}
+
+form li > label, form li > p{
+    margin:  2px 0;
+    background-color: #E0F0E8;
+    padding: 9px 7px 7px 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    color: #55917A;
+}
+
+
+label[for="adress"] {
+    padding: 68px 9px;
+    vertical-align: top;
+    color: #55917A;
+}
+
+form li > input > {
+    border: 1px solid #55917A;
+    width: 200px;
+    color: #55917A;
+}
+
+.your-name{
+    width: 260px;
+    border: 1px solid #55917A;
+    color: #55917A;
+}
+
+.phone > ul, .phone > ul > li {
+    display: inline-block;
+    color:  #55917A;
+}
+
+.phone > ul > li > label {
+    display: block;
+    background-color: transparent;
+    width: auto;
+    color: #55917A;
+}
+.phone > ul > li > input {
+    width:  80px;
+    color:  #55917A;
+}
+.email{
+    width: 340px;
+    border: 1px solid #55917A;
+    color: #55917A;
+}
+
+.alternate{
+    width: 340px;
+    border: 1px solid #55917A;
+    color: #55917A;
+}
+
+#country-code{
+    font-size: 12px;
+}
+
+.checkbox1{
+    margin: 8px 2px 12px 222px;
+}
+
+.checkbox2{
+    color:#55917A;
+}
+
+.submit1{
+     margin: 8px 9px 12px 222px;
+}
+
+.input-phone{
+    padding-right: 115px;
+    border: 1px solid #55917A;
+}
+
+#adress{
+    border: 1px solid #55917A;
+}
+
+.password{
+    border: 1px solid #55917A;
+}
+#city-code0{
+
+}
+
+.phone input {
+    width: 80px;
+}
+
+#city-code1{
+
+    border: 1px solid #55917A;
+}
+
+#city-code0{
+
+    font-size: 12px;
+    color: #55917A;
+    margin-right: 30px;
+}
+
+#country{
+    padding: 0px 128px;
+    border: 1px solid #55917A;
+}
+
+#country-code1{
+    border: 1px solid #55917A; 
+}
+
+#phone-number0{
+    vertical-align: top;
+    font-size: 12px;
+    display: inline-block;
+    color: #55917A;
+}
+
+#phone-number1{
+    border: 1px solid #55917A;  
+}
+
+#country-code{
+  color: #55917A; 
+  margin-right: 6px;
+}

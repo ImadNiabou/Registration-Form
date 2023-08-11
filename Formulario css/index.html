@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="main">
+			<h1>Register-Create Account</h1>
+			<p>Field maked with are compulsory field</p>
+			<form action="php" method="post">
+				<fieldset>
+					<ul>
+					<li>
+						<label for="user">Your Name</label>
+						<input class="your-name" type="text" id="user" name="user">
+					</li>
+					<li>
+						<label for="mail">E-Mail ID</label>
+						<input class="email" type="text" id="mail" name="mail">
+					</li>
+						<li>
+						<label for="email">Alternate E-Mail ID</label>
+						<input class="alternate" type="text" id="email" name="email">
+					</li>
+					<li class="phone">
+						<p>Your phone</p>
+						<div id="phone-number0">
+							<div>
+								<label for="country-code" id="country-code">Country code</label>
+								<span>-</span>
+								<label for="city-code" id="city-code0">City code</label>
+								<span>-</span>
+								<label for="phone-number" id="phone-number0">Phone Number</label>
+							</div>
+							<div>
+								<input type="text" name="country-code" id="country-code1">
+								<span>-</span>
+								<input type="text" id="city-code1" name="country code">
+								<span>-</span>
+								<input type="text" id="phone-number1" name="country code">
+							</div>
+						</div>
+					</li>
+					<li>
+						<label for="phone">Mobile Phone</label>
+						<input type="text" id="phone" class="input-phone" name="phone">
+					</li>
+					<li>
+						<label for="adress">Your Postal Adress</label>
+						<textarea name="adress" id="adress" cols="40" rows="10"></textarea>
+					</li>
+					<li>
+						<label for="country">Country</label>
+						<select name="country" id="country">
+							<optgroup label="country">
+							    <option value="01">España</option>
+								<option value="02">Francía</option>
+								<option value="02">Italia</option>
+								<option value="02">Portugal</option>
+							</optgroup>
+						</select>
+					</li>
+					<li>
+						<label for="password">Password</label>
+						<input type="password" class="password" name="password">
+					</li>
+					<li>
+						<label for="password">Re-Enter Password</label>
+						<input type="password" class="password" name="">
+					</li>
+					</ul>
+					<div id="legal">
+						<input type="checkbox" id="checkbox" class="checkbox1" name="terms">
+						<label for="terms" class="checkbox2">I acept the <a href="#">Terms os Use</a></label>
+					</div>
+					<input type="submit" class="submit1" name="continue" value="Continue >>">
+					<input type="reset" name="Reset" value="Reset">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
